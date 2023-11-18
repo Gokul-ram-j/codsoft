@@ -32,6 +32,10 @@ while(run):
     if choice not in ["1","2","3","4","5","6"]:
         print("X--     INVALID CHOICE     --X")
         continue
+    if choice=="6":
+        print("|     THANKS FOR USING OUR CALCULATOR      |")
+        run=False
+        
     num1=int(input("enter the first number  :"))
     num2=int(input("enter the second number :"))
     if choice=="1":
@@ -44,9 +48,6 @@ while(run):
         print("RESULT :",division(num1,num2))
     elif choice=="5":
         print("RESULT :",mod(num1,num2))
-    elif choice=="6":
-        print("|     THANKS FOR USING OUR CALCULATOR      |")
-        run=False
     print("-"*35)
         
      
