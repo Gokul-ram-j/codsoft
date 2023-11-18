@@ -65,7 +65,7 @@ print("|          2.VIEW CONTACT        |")
 print("|          3.DELETE CONTACT      |")
 print("|          4.UPDATE CONTACT      |")
 print("|          5.SEARCH CONTACT      |")
-print("|          5.EXIT                |")
+print("|          6.EXIT                |")
     
 run=True
 while(run):
