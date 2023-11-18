@@ -34,8 +34,8 @@ while(run):
         continue
     if choice=="6":
         print("|     THANKS FOR USING OUR CALCULATOR      |")
-        run=False
-        
+        break
+
     num1=int(input("enter the first number  :"))
     num2=int(input("enter the second number :"))
     if choice=="1":
